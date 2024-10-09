@@ -167,98 +167,98 @@ git push
 
 1. Зашли на сайт https://github.com/, создали учётную запись и заполнили данные (рис. 4.1 Сайт github.com).
 
-![Сайт github.com](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.1.jpg){#fig:001 width=70%}
+![Сайт github.com](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.1.jpg){#fig:001 width=70%}
 
 
 2. Создали предварительную конфигурацию git. Ввели следующие команды, указав имя владельца репозитории (рис. 4.2 Ввод имени владельца).
 
-![Ввод имени владельца](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.2.jpg){#fig:002 width=70%}
+![Ввод имени владельца](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.2.jpg){#fig:002 width=70%}
 
 
 Ввели следующие команды, указав email владельца репозитории (рис. 4.3 Ввод команды почты владельца).
 
-![Ввод команды почты владельца](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.3.jpg){#fig:003 width=70%}
+![Ввод команды почты владельца](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.3.jpg){#fig:003 width=70%}
 
 
 3. Настроим utf-8 в выводе сообщений git (рис. 4.4 Настройка utf-8 в выводе сообщений git).
 
-![Настройка utf-8 в выводе сообщений git](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.4.jpg){#fig:004 width=70%}
+![Настройка utf-8 в выводе сообщений git](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.4.jpg){#fig:004 width=70%}
 
 
-4.Задали имя начальной ветки (рис. 4.5 Имя начальной ветки).
+4. Задали имя начальной ветки (рис. 4.5 Имя начальной ветки).
 
-![Имя начальной ветки](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.5.jpg){#fig:005 width=70%}
-
-
-5.Настроили autocrlf (рис. 4.6 Параметр autocrlf).
-
-![Параметр autocrlf](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.6.jpg){#fig:006 width=70%}
+![Имя начальной ветки](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.5.jpg){#fig:005 width=70%}
 
 
-6.Настроили safecrlf (рис. 4.7 Параметр safecrlf).
+5. Настроили autocrlf (рис. 4.6 Параметр autocrlf).
 
-![Параметр safecrlf](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.7.jpg){#fig:007 width=70%}
+![Параметр autocrlf](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.6.jpg){#fig:006 width=70%}
 
 
-7.Создание SSH ключа
+6. Настроили safecrlf (рис. 4.7 Параметр safecrlf).
+
+![Параметр safecrlf](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.7.jpg){#fig:007 width=70%}
+
+
+7. Создание SSH ключа
 Сгенерировали пару ключей
 
-Скопировали из локальной консоли ключ (рис. 4.9 Копирование ключа).
+Скопировали из локальной консоли ключ (рис. 4.8 Копирование ключа).
 
-![Копирование ключа](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.9.jpg){#fig:009 width=70%}
+![Копирование ключа](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.9.jpg){#fig:009 width=70%}
 
-8.Внесли ключ на сайте (рис. 4.10 Ключ).
+8. Внесли ключ на сайте (рис. 4.9 Ключ).
 
-![Ключ](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.10.jpg){#fig:010 width=70%}
+![Ключ](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.10.jpg){#fig:010 width=70%}
 
-9. Создали каталог для предмета «Архитектура компьютера» (рис. 4.11 Создание каталога «Архитектура компьютера»).
+9. Создали каталог для предмета «Архитектура компьютера» (рис. 4.10 Создание каталога «Архитектура компьютера»).
 
-![Создание каталога «Архитектура компьютера»](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.11.jpg){#fig:011 width=70%}
+![Создание каталога «Архитектура компьютера»](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.11.jpg){#fig:011 width=70%}
 
-10. Создали репозиторий через сайт github (рис. 4.12 Создание репозитория).
+10. Создали репозиторий через сайт github (рис. 4.11 Создание репозитория).
 
-![Создание репозитория](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.12.jpg){#fig:012 width=70%}
+![Создание репозитория](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.12.jpg){#fig:012 width=70%}
 
-11. Перешли в каталог курса (рис. 4.13 Переход в каталог).
+11. Перешли в каталог курса (рис. 4.12 Переход в каталог).
 
-![Переход в каталог](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.13.jpg){#fig:013 width=70%}
+![Переход в каталог](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.13.jpg){#fig:013 width=70%}
 
-12. Клонировали репозиторий (рис. 4.14 Клонирование репозитория).
+12. Клонировали репозиторий (рис. 4.13 Клонирование репозитория).
 
-![Клонирование репозитория](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.14.jpg){#fig:014 width=70%}
+![Клонирование репозитория](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.14.jpg){#fig:014 width=70%}
 
 
-14. Удалили лишние файлы (рис. 4.16 Ввод команды для удаления).
+13. Удалили лишние файлы (рис. 4.14 Ввод команды для удаления).
 
-![Ввод команды для удаления](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.16.jpg){#fig:016 width=70%}
+![Ввод команды для удаления](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.16.jpg){#fig:016 width=70%}
 
-15. Создали каталоги (рис. 4.17 Ввод команды для создания каталогов).
+14. Создали каталоги (рис. 4.15 Ввод команды для создания каталогов).
 
-![Ввод команды для создания каталогов](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.17.jpg){#fig:017 width=70%}
+![Ввод команды для создания каталогов](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.17.jpg){#fig:017 width=70%}
 
-16. Отправили файлы на сервер (рис. 4.18 Отправка данных на сервер).
+15. Отправили файлы на сервер (рис. 4.16 Отправка данных на сервер).
 
-![Отправка данных на сервер](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.18.jpg){#fig:018 width=70%}
+![Отправка данных на сервер](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.18.jpg){#fig:018 width=70%}
 
-17. Проверили правильность создания рабочего пространства в локальном репозитории и на странице github (рис. 4.21 Проверка правильности создания рабочего пространства).
+16. Проверили правильность создания рабочего пространства в локальном репозитории и на странице github (рис. 4.17 Проверка правильности создания рабочего пространства).
 
-![Проверка правильности создания рабочего пространства](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.21.jpg){#fig:021 width=70%}
+![Проверка правильности создания рабочего пространства](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.21.jpg){#fig:021 width=70%}
 
 Задание для самостоятельной работы
 
-1. Создали каталог для внесения отчета по выполнению лабораторной работы в (labs>lab02>report) (рис. 4.22 Создание каталога).
+1. Создали каталог для внесения отчета по выполнению лабораторной работы в (labs>lab02>report) (рис. 4.18 Создание каталога).
 
-![Создание каталога](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.22.jpg){#fig:022 width=70%}
+![Создание каталога](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.22.jpg){#fig:022 width=70%}
 
-2. Создали каталог для внесения предыдущих лабораторных работ (рис. 4.23 Создание каталога для предыдущих лабораторных работ).
+2. Создали каталог для внесения предыдущих лабораторных работ (рис. 4.19 Создание каталога для предыдущих лабораторных работ).
 
 3. Скопировали отчеты по выполнению предыдущих лабораторных работ в каталоги рабочего пространства.
 
-4. Загрузили файлы на github (рис. 4.24 Загрузка файлов на github).
+4. Загрузили файлы на github (рис. 4.20 Загрузка файлов на github).
 
-![Загрузка файлов на github](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.24.jpg){#fig:024 width=70%}
+![Загрузка файлов на github](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.24.jpg){#fig:024 width=70%}
 
-![Проверка файлов на github](/home/nmeliseiykina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arhpc/labs/lab02/report/image/4.25.jpg){#fig:025 width=70%}
+![Проверка файлов на github](/home/migolovina/work/study/2024-2025/Архитектура компьютера/study_2024-2025_arh-pc/labs/lab11/report/image/4.25.jpg){#fig:025 width=70%}
 
 
 # Выводы
