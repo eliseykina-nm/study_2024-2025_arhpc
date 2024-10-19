@@ -1,0 +1,20 @@
+     1                                  SECTION .data
+     2 00000000 D095D0BBD0B8D181D0-     	hello:		DB 'Елисейкина Надежда',10
+     2 00000009 B5D0B9D0BAD0B8D0BD-
+     2 00000012 D0B020D09DD0B0D0B4-
+     2 0000001B D0B5D0B6D0B4D0B00A 
+     3                                  	
+     4                                  	helloLen:	EQU $-hello
+     5                                  	
+     6                                  SECTION .text
+     7                                  	GLOBAL _start
+     8                                  _start:
+     9 00000000 B804000000              	mov eax,4
+    10 00000005 BB01000000              	mov ebx,1
+    11 0000000A B9[00000000]            	mov ecx,hello
+    12 0000000F BA24000000              	mov edx,helloLen
+    13 00000014 CD80                    	int 80h
+    14                                  	
+    15 00000016 B801000000              	mov eax,1
+    16 0000001B BB00000000              	mov ebx,0
+    17 00000020 CD80                    	int 80h
